@@ -7,7 +7,7 @@ try:
     import SocketServer
 except ImportError:
     # Python 3
-    import socketserver
+    import socketserver as SocketServer
 
 import django
 from django.conf import settings
